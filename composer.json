@@ -23,6 +23,7 @@
         "drupal/admin_toolbar": "^2.0",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
+        "drupal/profile": "^1.0",
         "drupal/token": "^1.5",
         "drupal/zurb_foundation": "^6.0",
         "drush/drush": "^9.0.0",
