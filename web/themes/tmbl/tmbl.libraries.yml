@@ -1,0 +1,7 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/tmbl.css: {}
+  js:
+    js/tmbl.js: {}
