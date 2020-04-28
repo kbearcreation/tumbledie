@@ -23,8 +23,6 @@
         "drupal/core-recommended": "^8.8",
         "drupal/profile": "^1.0",
         "drupal/token": "^1.5",
-        "drupal/zurb_foundation": "^6.0",
-        "drupal/zurb_foundation_companion": "^6",
         "drush/drush": "^10.0"
     },
     "require-dev": {

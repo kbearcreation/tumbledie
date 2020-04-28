@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cce5092bcbdcbad0309cbdb0aeca7fce",
+    "content-hash": "d3107ce7fa1a97bffd2b682b7ef900f0",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2657,128 +2657,6 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
-            }
-        },
-        {
-            "name": "drupal/zurb_foundation",
-            "version": "6.0.0-alpha5",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/zurb-foundation.git",
-                "reference": "8.x-6.0-alpha5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/zurb_foundation-8.x-6.0-alpha5.zip",
-                "reference": "8.x-6.0-alpha5",
-                "shasum": "ab1cfb103ca1387cf626026b63eef9c2bc219a25"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "branch-alias": {
-                    "dev-6.x": "6.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-6.0-alpha5",
-                    "datestamp": "1551130084",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Kevin Quillen (kevinquillen)",
-                    "homepage": "https://www.drupal.org/u/kevinquillen",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Samuel Mortensen (samuelmortenson)",
-                    "homepage": "https://www.drupal.org/u/samuelmortenson",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "asrob",
-                    "homepage": "https://www.drupal.org/user/105777"
-                },
-                {
-                    "name": "kevinquillen",
-                    "homepage": "https://www.drupal.org/user/317279"
-                },
-                {
-                    "name": "sim_1",
-                    "homepage": "https://www.drupal.org/user/3515959"
-                }
-            ],
-            "description": "Base Drupal theme based on Zurb Foundation 6.x.",
-            "homepage": "http://drupal.org/project/zurb_foundation",
-            "keywords": [
-                "Drupal"
-            ],
-            "support": {
-                "source": "http://cgit.drupalcode.org/zurb_foundation",
-                "issues": "http://drupal.org/project/issues/zurb_foundation"
-            }
-        },
-        {
-            "name": "drupal/zurb_foundation_companion",
-            "version": "6.0.0-beta1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/zurb_foundation_companion.git",
-                "reference": "8.x-6.0-beta1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/zurb_foundation_companion-8.x-6.0-beta1.zip",
-                "reference": "8.x-6.0-beta1",
-                "shasum": "453ea20cd39c0ee1fd6bee31a735163f9e9af239"
-            },
-            "require": {
-                "drupal/core": "^8.7",
-                "drupal/zurb_foundation": "^6.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-6.x": "6.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-6.0-beta1",
-                    "datestamp": "1580113087",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9 || ^10"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "asrob",
-                    "homepage": "https://www.drupal.org/user/105777"
-                }
-            ],
-            "description": "Extends Zurb Foundation theme with module functionalities",
-            "homepage": "https://www.drupal.org/project/zurb_foundation_companion",
-            "support": {
-                "source": "https://git.drupalcode.org/project/zurb_foundation_companion"
             }
         },
         {
