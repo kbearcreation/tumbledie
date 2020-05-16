@@ -23,10 +23,12 @@
         "drupal/core-recommended": "^8.8",
         "drupal/profile": "^1.0",
         "drupal/token": "^1.5",
-        "drupal/twig_tweak": "^2.5"
+        "drupal/twig_tweak": "^2.5",
+        "emulsify-ds/emulsify-drupal": "^1.0@beta"
     },
     "require-dev": {
-        "drupal/core-dev": "^8.8"
+        "drupal/core-dev": "^8.8",
+        "drush/drush": "^10.2"
     },
     "conflict": {
         "drupal/drupal": "*"

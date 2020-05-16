@@ -1,0 +1,16 @@
+# Breakpoints - change based on site need
+tmblify.small:
+  label: small
+  mediaQuery: 'all and (min-width: 25em)'
+tmblify.small-med:
+  label: small-med
+  mediaQuery: 'all and (min-width: 26em)'
+tmblify.small-large:
+  label: small-large
+  mediaQuery: 'all and (min-width: 41em)'
+tmblify.medium:
+  label: medium
+  mediaQuery: 'all and (min-width: 48em)'
+tmblify.large:
+  label: large
+  mediaQuery: 'all and (min-width: 61.25em)'
