@@ -24,6 +24,7 @@
         "drupal/profile": "^1.0",
         "drupal/token": "^1.5",
         "drupal/twig_tweak": "^2.5",
+        "drupal/webform": "^5.19",
         "emulsify-ds/emulsify-drupal": "^1.0@beta"
     },
     "require-dev": {
