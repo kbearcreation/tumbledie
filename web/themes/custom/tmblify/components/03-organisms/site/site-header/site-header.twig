@@ -1,7 +1,7 @@
 {% set header__base_class = 'header' %}
 {# If `directory` is defined, set the path relative for Drupal.
  # Otherwise, set the path relative to the Component Library. #}
-{#{% set header__logo_src = directory ? '/' ~ directory ~ '/images/logo.png' : 'images/logo.png' %}#}
+{% set header__logo_src = directory ? '/' ~ directory ~ '/images/logo-wide-white.png' : 'images/logo-wide-white.png' %}
 
 <header {{ bem(header__base_class) }}>
   <div {{ bem('inner', [], header__base_class) }}>
@@ -12,14 +12,14 @@
             link_base_class: 'logo-link',
             link_url: logo_link__url|default('/'),
           } %}
-{#            {% block link_content %}#}
-{#              {% include "@atoms/images/image/responsive-image.twig" with {#}
-{#                output_image_tag: true,#}
-{#                image_src: header__logo_src,#}
-{#                image_alt: 'Tumbledie Logo',#}
-{#                responsive_image_blockname: 'logo',#}
-{#              } %}#}
-{#            {% endblock %}#}
+            {% block link_content %}
+              {% include "@atoms/images/image/responsive-image.twig" with {
+                output_image_tag: true,
+                image_src: header__logo_src,
+                image_alt: 'Tumbledie Logo',
+                responsive_image_blockname: 'logo',
+              } %}
+            {% endblock %}
           {% endembed %}
         {% endblock %}
       </div>

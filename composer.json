@@ -21,6 +21,7 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
+        "drupal/devel": "^4.0",
         "drupal/profile": "^1.0",
         "drupal/token": "^1.5",
         "drupal/twig_tweak": "^2.5",
