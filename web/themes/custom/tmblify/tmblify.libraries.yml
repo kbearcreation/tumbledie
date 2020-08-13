@@ -2,6 +2,7 @@ global:
   css:
     theme:
       dist/style.css: {}
+      '//fonts.googleapis.com/css?family=Spectral:400;600;700;800|Verdana:400,300': { type: external, minified: true }
 
 main-menu:
   js:

@@ -20,4 +20,10 @@
     margin-right: $space;
     max-width: 300px;
   }
+
+  &__menu {
+    margin-right: $space;
+    position: relative;
+    top: 25px;
+  }
 }
