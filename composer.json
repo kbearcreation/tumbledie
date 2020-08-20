@@ -22,11 +22,14 @@
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/devel": "^4.0",
+        "drupal/mail_safety": "^1.1",
+        "drupal/masquerade": "^2.0",
         "drupal/profile": "^1.0",
         "drupal/token": "^1.5",
         "drupal/twig_tweak": "^2.5",
         "drupal/webform": "^5.19",
-        "emulsify-ds/emulsify-drupal": "^1.0@beta"
+        "emulsify-ds/emulsify-drupal": "^1.0@beta",
+        "kint-php/kint": "^3.3"
     },
     "require-dev": {
         "drupal/core-dev": "^8.8",

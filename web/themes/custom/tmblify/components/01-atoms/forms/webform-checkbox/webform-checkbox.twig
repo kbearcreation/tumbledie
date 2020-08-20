@@ -4,9 +4,9 @@
   <ul class="form-item--checkboxes kevins-checkbox-component">
 {% endif %}
   {% for key, checkbox in checkboxes %}
-    {% include "@atoms/forms/checkbox/_checkbox-item.twig" with {
-      checkbox_item: checkbox.title,
-      checkbox_item_checked: checkbox.checked,
+    {% include "@atoms/forms/webform-checkbox/_webform-checkbox-item.twig" with {
+      checkbox_item: webformcheckboxes.title,
+      checkbox_item_checked: webformcheckboxes.checked,
     } %}
   {% endfor %}
 {% if not attributes %}
